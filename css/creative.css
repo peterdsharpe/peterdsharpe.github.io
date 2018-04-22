@@ -310,8 +310,8 @@ header.masthead p {
   border-radius: 20px;
   background-color: transparent;
   background-color: rgba(50, 50, 50, 0.6);
-  padding-top: 5px; 
-  padding-bottom: 5px; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
   margin: 0 auto;
   box-shadow: 0px 30px 800px rgba(0,0,0,0.6);
 }
