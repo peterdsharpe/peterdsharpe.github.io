@@ -12,6 +12,8 @@ hr {
   max-width: 50px;
   border-width: 3px;
   border-color: #495057;
+  border-color: transparent;
+  border-color: rgba(100, 100, 100, 0.6);
 }
 
 hr.light {
@@ -301,7 +303,7 @@ header.masthead p {
   background-color: #7b828c;
   border-color: #7b828c;
   background-color: transparent;
-  background-color: rgba(100, 100, 100, 0.2);
+  background-color: rgba(100, 100, 100, 0.6);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -316,7 +318,7 @@ header.masthead p {
 .list-social-icons a {
   color: #495057;
   color: transparent;
-  color: rgba(100, 100, 100, 0.2);
+  color: rgba(100, 100, 100, 0.6);
 
   }
   .list-social-icons a:hover {
