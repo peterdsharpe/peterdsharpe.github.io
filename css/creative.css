@@ -313,6 +313,7 @@ header.masthead p {
   padding-top: 5px; 
   padding-bottom: 5px; 
   margin: 0 auto;
+  box-shadow: 0px 30px 800px rgba(0,0,0,0.6);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
