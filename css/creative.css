@@ -308,9 +308,8 @@ header.masthead p {
 
 .translucent-bg {
   border-radius: 10px;
-  border: 1px solid #555555;
   background-color: transparent;
-  background-color: rgba(100, 100, 100, 0.8);
+  background-color: rgba(100, 100, 100, 0.5);
   padding-top: 5px; 
   padding-bottom: 5px; 
   width: 90%;
@@ -329,7 +328,7 @@ header.masthead p {
 .list-social-icons a {
   color: #495057;
   color: transparent;
-  color: rgba(100, 100, 100, 0.8);
+  color: rgba(100, 100, 100, 0.6);
 
   }
   .list-social-icons a:hover {
