@@ -321,14 +321,14 @@ header.masthead p {
 	color: white;
 	font-size: 20px;
 	text-shadow:
-        0.05em 0 rgba(50, 50, 50, 0.6),
-        0 0.05em rgba(50, 50, 50, 0.6),
-        -0.05em 0 rgba(50, 50, 50, 0.6),
-        0 -0.05em rgba(50, 50, 50, 0.6),
-        -0.05em -0.05em rgba(50, 50, 50, 0.6),
-        -0.05em 0.05em rgba(50, 50, 50, 0.6),
-        0.05em -0.05em rgba(50, 50, 50, 0.6),
-        0.05em 0.05em rgba(50, 50, 50, 0.6);
+        0.03em 0 rgba(50, 50, 50, 0.6),
+        0 0.03em rgba(50, 50, 50, 0.6),
+        -0.03em 0 rgba(50, 50, 50, 0.6),
+        0 -0.03em rgba(50, 50, 50, 0.6),
+        -0.03em -0.03em rgba(50, 50, 50, 0.6),
+        -0.03em 0.03em rgba(50, 50, 50, 0.6),
+        0.03em -0.03em rgba(50, 50, 50, 0.6),
+        0.03em 0.03em rgba(50, 50, 50, 0.6);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
