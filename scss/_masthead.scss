@@ -1,37 +1,44 @@
-// Styling for the masthead
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header.jpg');
-  background-position: center center;
-  @include background-cover;
-  hr {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%), url('../img/bg-masthead.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
   h1 {
-    font-size: 2rem;
+    font-family: 'Varela Round';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(fade-out(white, 0.1), fade-out(white, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
   }
-  p {
-    font-weight: 300;
+  h2 {
+    max-width: 20rem;
+    font-size: 1rem;
   }
-  @media (min-width: 768px) {
-    p {
-      font-size: 1.15rem;
-    }
-  }
-  @media (min-width: 992px) {
-    height: 100vh;
-    min-height: 650px;
-    padding-top: 0;
-    padding-bottom: 0;
-    h1 {
-      font-size: 3rem;
-    }
-  }
-  @media (min-width: 1200px) {
+  @media(min-width: 768px) {
     h1 {
       font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+  @media(min-width: 992px) {
+    height: 100vh;
+    padding: 0;
+    h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    h2 {
+      max-width: 30rem;
+      font-size: 1.25rem;
     }
   }
 }
