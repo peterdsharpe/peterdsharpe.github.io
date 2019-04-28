@@ -1,131 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116335955-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-116335955-1');
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
   
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    
-    <meta property="og:url" content="//www.cfoyer.com/" />
-    <meta property="og:title" content="Christophe Foyer - Website" />
-    <meta property="og:description" content="Access to my online resume and updates on my various projects." />
-    <meta property="og:image" content="//www.cfoyer.com/img/header.jpg" />
+  <meta property="og:url" content="//www.cfoyer.com/" />
+  <meta property="og:title" content="Christophe Foyer - Website" />
+  <meta property="og:description" content="Access to my online resume and updates on my various projects." />
+  <meta property="og:image" content="//www.cfoyer.com/img/header.jpg" />
 
-    <title>Christophe Foyer</title>
+  <title>C. Foyer</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/creative.css" rel="stylesheet">
-    
-    <!-- Website Icon -->
-    <link rel="icon" href="favicon.ico">
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.css" rel="stylesheet">
+  
+  <!-- Website Icon -->
+  <link rel="icon" href="favicon.ico">
 
-  </head>
+</head>
 
-  <body id="page-top" class="bg-dark">
+<body id="page-top">
 
-    <header class="masthead text-center text-white d-flex bg-dark" style="height:100vh;">
-        <div style="position: absolute; height: 80%; width: 100%; top: 5%; display: flex; align-items: center; ">
-            <div class="container my-auto">
-                <div class="row">
-                  <div class="col-lg-10 mx-auto">
-                    <h1 class="text-uppercase">
-                      <strong>Christophe Foyer</strong>
-                    </h1>
-                    <hr>
-                  </div>
-                  <div class="col-lg-8 mx-auto">
-                    <p class="text-faded mb-5 text-white-border-black" style="width: 85%; line-height: 20px;"><strong>Mechanical Engineer, Software Developer, Electronics Enthusiast</strong><br>
-                    <font size="3">-</font><br>
-                    <font size="3">B.S. in Mechanical Engineering - Washington University in Saint Louis</font></p>
-                    <span style="display: inline-block; padding:10px;">
-					<a class="btn btn-primary btn-xl js-scroll-trigger" style="width:240px;" href="https://resume.cfoyer.com/"><i class="fa fa-align-left"></i> Online Resume</a>
-                    </span>
-					<span style="display: inline-block; padding:10px;">
-					<a class="btn btn-primary btn-xl js-scroll-trigger" style="width:240px;" href="https://blog.cfoyer.com/"><i class="fa fa-book"></i> Project Updates</a>
-					</span>
-				  </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">C. Foyer</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">Christophe Foyer</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-4">Mechanical Engineering | Software | Automation</h2>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">B.S. in Mechanical Engineering<br>Washington University in St. Louis</h2>
+		
+        <a href="#about" class="btn btn-primary js-scroll-trigger">About - Portfolio</a>
+        <a href="https://resume.cfoyer.com/" class="btn btn-primary js-scroll-trigger">Online Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">About - Portfolio</h2>
+          <p class="text-white-50">Here you will find samples of my work. 
+          Due to the confidentiality of the designs and software produced through my professional activity, these samples mainly consist of academic or independent projects. Please refer to my <a href="https://resume.cfoyer.com/">online resume</a> for additional information until this section is populated.
+          </p>
+        </div>
+      </div>
+      <img src="img/projects/plane.png" class="img-fluid" alt="">
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/projects/simulation_report.png" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Engineering Simulations</h4>
+            <p class="text-black-50 mb-0">Through my proficiency in both mechanical engineering and software, I have developped custom-designed simulations to model physical systems and estimate desired variables both on teams, and on smaller projects.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img src="img/projects/plane-lake.jpg" class="img-fluid" alt="">
+          <!--<img class="img-fluid" src="img/demo-image-01.jpg" alt="">-->
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Aerospace</h4>
+                <p class="mb-0 text-white-50">A few examples of my aerospace projects, including personal projects, and my experience co-founding <a href="https://engineering.wustl.edu/news/Pages/WashU-teams-The-Wrighton-Flyer-drone-places-high-in-first-competition.aspx">Washington University's AIAA Design/Build/Fly</a> competion team.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <!--<img class="img-fluid" src="img/demo-image-02.jpg" alt="">-->
+          <img class="img-fluid" src="img/projects/arduino.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Robotics</h4>
+                <p class="mb-0 text-white-50">Embedded electronics, sensors, and programming are a major part of many of my <a href="https://resume.cfoyer.com/#projects">projects.</a></p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project Three Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-12 w-100">
+            <div  class="text-center bg-black w-100">
+                <img src="img/projects/longboard-bg.png" class="img-fluid w-100" alt="">
+            </div>
+            <div class="bg-black text-center project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left" style="padding: 1rem 1rem 5rem 5rem ;">
+                  <h4 class="text-white">Mechanical Design</h4>
+                  <p class="mb-0 text-white-50">3D design is the cornerstone of most projects and the main building block for FEA, CFD, and thermal analysis. 
+                  <br>As a trained mechanical engineer, I have had the chance to use main of the tools currently used in industry to both design and fabricate my projects from the ground up.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
+              </div>
             </div>
         </div>
-        <div style="position: absolute; bottom: 1vh; width: 100%;">
-            <ul class="list-inline list-social-icons mb-0">
-            
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/christophe-foyer">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://github.com/Christophe-Foyer">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-                <!--<li class="list-inline-item">
-                  <a href="https://plus.google.com/u/0/102350383248333233367">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>-->
-                <!--<li class="list-inline-item">
-                  <a href="https://christophefoyer.imgur.com/">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>-->
-                <li class="list-inline-item">
-                  <a href="https://www.flickr.com/photos/135573610@N03/">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
-                    </span>
-                  </a>
-                </li>
-            </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  
+  <!--
+  <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          </form>
+
         </div>
-    </header>
+      </div>
+    </div>
+  </section>
+  -->
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Contact Section -->
+  <section class="contact-section bg-black">
+    <div class="container">
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+      <div class="row">
 
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">75 Wynford Road, London, UK</div>
+            </div>
+          </div>
+        </div>
 
-  </body>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="mailto:c@cfoyer.com">christophe@cfoyer.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">+1 (816) 419-6150</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/christophe-foyer" class="mx-2">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Christophe-Foyer" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.flickr.com/photos/135573610@N03/" class="mx-2">
+          <i class="fab fa-flickr"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; C.Foyer 2019
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+</body>
 
 </html>
