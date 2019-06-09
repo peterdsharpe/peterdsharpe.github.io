@@ -105,7 +105,8 @@
   font-size: 2rem;
   line-height: 2rem;
   letter-spacing: 0.6rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.6) 90%, rgba(255, 255, 255, 0.0) 100%);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 100%);
+  /*background: -webkit-linear-gradient(rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 90%, rgba(0, 0, 0, 0.5) 100%);*/
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -113,7 +114,8 @@
 .masthead h2 {
   max-width: 30rem;
   font-size: 1rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.8) 95%, rgba(255, 255, 255, 0.3) 100%);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 100%);
+  /*background: -webkit-linear-gradient(rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 95%, rgba(0, 0, 0, 0.3) 100%);*/
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -125,19 +127,19 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 800px) {
   .masthead {
     height: 100vh;
     padding: 0;
   }
   .masthead h1 {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    letter-spacing: 0.6rem;
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: 1rem;
   }
   .masthead h2 {
-    max-width: 40rem;
-    font-size: 1.25rem;
+    max-width: 60rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -235,7 +237,7 @@
 .contact-section {
   padding: 5rem 0 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/footer.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/footer.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.3) 75%, rgba(22,22,22,1.0) 100%), url("../img/footer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
