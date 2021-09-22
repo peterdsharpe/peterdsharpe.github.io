@@ -1,3 +1,14 @@
 node_modules
 .sass-cache
 bower_components
+### Peter's Template template
+dist/
+.idea/
+__pycache__/
+*.pkl
+.pytest_cache/
+.spyrpoject/
+*.DS_Store
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+~*.*
